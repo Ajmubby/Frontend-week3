@@ -1,0 +1,38 @@
+/* cascading and specificity  */
+
+main h1{
+    color: red;
+}
+h1{
+  color: green;
+}
+/* pseudoclass selector */
+/* first child selector */
+/* last child selector */
+/* first-g-type */
+ul, li{
+  margin: 30px;
+}
+
+ul, li{
+  border: 10px double green;
+}
+
+ul :first-child, ul :last-child{
+  border: 10px double violet;
+}
+
+ul>:nth-child(3n+3){
+    border: 10px dashed hotpink;
+}
+
+
+li:first-of-type{
+  background-color: khaki;
+}
+li:last-of-type{
+  background-color: khaki;
+}
+li:nth-child(2n+1){
+  background-color: aqua;
+}
