@@ -1,0 +1,18 @@
+body>:first-child{
+  background-image: url(../media/Suya.jpg);
+  background-size: contain;
+}
+
+body>:nth-child(2){
+  background-image: url(../media/sheyi-owolabi-WSu7qcT3rVg-unsplash.jpg), url(../media/grab-aSNPOc3BVzw-unsplash.jpg), url(../media/Pineapple.jpg);
+  background-size: 100px, 100px, 100px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top left, center, bottom right;
+}
+
+body>:nth-child(3){
+  background-image: url(../media/Letus.jpg);
+  background-size: contain;
+}
+
+
