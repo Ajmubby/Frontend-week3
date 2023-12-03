@@ -13,6 +13,16 @@ body>:nth-child(2){
 body>:nth-child(3){
   background-image: url(../media/Letus.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body>:nth-child(4){
+  background-image: url(../media/Letus.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+
 }
 
 
